@@ -36,4 +36,4 @@ customModes:
       - browser
       - command
       - mcp
-    source: global
+    source:
