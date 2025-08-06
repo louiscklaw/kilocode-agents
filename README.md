@@ -9,68 +9,68 @@ This repository contains 50 specialized subagents that extend Claude Code's capa
 ## Available Subagents
 
 ### Development & Architecture
-- **[backend-architect](backend-architect.md)** - Design RESTful APIs, microservice boundaries, and database schemas
-- **[frontend-developer](frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management
-- **[ui-ux-designer](ui-ux-designer.md)** - Create interface designs, wireframes, and design systems
-- **[mobile-developer](mobile-developer.md)** - Develop React Native or Flutter apps with native integrations
-- **[graphql-architect](graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation
-- **[architect-reviewer](architect-review.md)** - Reviews code changes for architectural consistency and patterns
+- **[backend-architect](yaml/backend-architect.yaml)** - Design RESTful APIs, microservice boundaries, and database schemas
+- **[frontend-developer](yaml/frontend-developer.yaml)** - Build React components, implement responsive layouts, and handle client-side state management
+- **[ui-ux-designer](yaml/ui-ux-designer.yaml)** - Create interface designs, wireframes, and design systems
+- **[mobile-developer](yaml/mobile-developer.yaml)** - Develop React Native or Flutter apps with native integrations
+- **[graphql-architect](yaml/graphql-architect.yaml)** - Design GraphQL schemas, resolvers, and federation
+- **[architect-reviewer](yaml/architect-review.yaml)** - Reviews code changes for architectural consistency and patterns
 
 ### Language Specialists
-- **[python-pro](python-pro.md)** - Write idiomatic Python code with advanced features and optimizations
-- **[golang-pro](golang-pro.md)** - Write idiomatic Go code with goroutines, channels, and interfaces
-- **[rust-pro](rust-pro.md)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations
-- **[c-pro](c-pro.md)** - Write efficient C code with proper memory management and system calls
-- **[cpp-pro](cpp-pro.md)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms
-- **[javascript-pro](javascript-pro.md)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs
-- **[typescript-pro](typescript-pro.md)** - Master TypeScript with advanced types, generics, and strict type safety
-- **[php-pro](php-pro.md)** - Write idiomatic PHP code with modern features and performance optimizations
-- **[java-pro](java-pro.md)** - Master modern Java with streams, concurrency, and JVM optimization
-- **[ios-developer](ios-developer.md)** - Develop native iOS applications with Swift/SwiftUI
-- **[sql-pro](sql-pro.md)** - Write complex SQL queries, optimize execution plans, and design normalized schemas
+- **[python-pro](yaml/python-pro.yaml)** - Write idiomatic Python code with advanced features and optimizations
+- **[golang-pro](yaml/golang-pro.yaml)** - Write idiomatic Go code with goroutines, channels, and interfaces
+- **[rust-pro](yaml/rust-pro.yaml)** - Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations
+- **[c-pro](yaml/c-pro.yaml)** - Write efficient C code with proper memory management and system calls
+- **[cpp-pro](yaml/cpp-pro.yaml)** - Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms
+- **[javascript-pro](yaml/javascript-pro.yaml)** - Master modern JavaScript with ES6+, async patterns, and Node.js APIs
+- **[typescript-pro](yaml/typescript-pro.yaml)** - Master TypeScript with advanced types, generics, and strict type safety
+- **[php-pro](yaml/php-pro.yaml)** - Write idiomatic PHP code with modern features and performance optimizations
+- **[java-pro](yaml/java-pro.yaml)** - Master modern Java with streams, concurrency, and JVM optimization
+- **[ios-developer](yaml/ios-developer.yaml)** - Develop native iOS applications with Swift/SwiftUI
+- **[sql-pro](yaml/sql-pro.yaml)** - Write complex SQL queries, optimize execution plans, and design normalized schemas
 
 ### Infrastructure & Operations
-- **[devops-troubleshooter](devops-troubleshooter.md)** - Debug production issues, analyze logs, and fix deployment failures
-- **[deployment-engineer](deployment-engineer.md)** - Configure CI/CD pipelines, Docker containers, and cloud deployments
-- **[cloud-architect](cloud-architect.md)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs
-- **[database-optimizer](database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations
-- **[database-admin](database-admin.md)** - Manage database operations, backups, replication, and monitoring
-- **[terraform-specialist](terraform-specialist.md)** - Write advanced Terraform modules, manage state files, and implement IaC best practices
-- **[incident-responder](incident-responder.md)** - Handles production incidents with urgency and precision
-- **[network-engineer](network-engineer.md)** - Debug network connectivity, configure load balancers, and analyze traffic patterns
-- **[dx-optimizer](dx-optimizer.md)** - Developer Experience specialist that improves tooling, setup, and workflows
+- **[devops-troubleshooter](yaml/devops-troubleshooter.yaml)** - Debug production issues, analyze logs, and fix deployment failures
+- **[deployment-engineer](yaml/deployment-engineer.yaml)** - Configure CI/CD pipelines, Docker containers, and cloud deployments
+- **[cloud-architect](yaml/cloud-architect.yaml)** - Design AWS/Azure/GCP infrastructure and optimize cloud costs
+- **[database-optimizer](yaml/database-optimizer.yaml)** - Optimize SQL queries, design efficient indexes, and handle database migrations
+- **[database-admin](yaml/database-admin.yaml)** - Manage database operations, backups, replication, and monitoring
+- **[terraform-specialist](yaml/terraform-specialist.yaml)** - Write advanced Terraform modules, manage state files, and implement IaC best practices
+- **[incident-responder](yaml/incident-responder.yaml)** - Handles production incidents with urgency and precision
+- **[network-engineer](yaml/network-engineer.yaml)** - Debug network connectivity, configure load balancers, and analyze traffic patterns
+- **[dx-optimizer](yaml/dx-optimizer.yaml)** - Developer Experience specialist that improves tooling, setup, and workflows
 
 ### Quality & Security
-- **[code-reviewer](code-reviewer.md)** - Expert code review with deep configuration security focus and production reliability
-- **[security-auditor](security-auditor.md)** - Review code for vulnerabilities and ensure OWASP compliance
-- **[test-automator](test-automator.md)** - Create comprehensive test suites with unit, integration, and e2e tests
-- **[performance-engineer](performance-engineer.md)** - Profile applications, optimize bottlenecks, and implement caching strategies
-- **[debugger](debugger.md)** - Debugging specialist for errors, test failures, and unexpected behavior
-- **[error-detective](error-detective.md)** - Search logs and codebases for error patterns, stack traces, and anomalies
-- **[search-specialist](search-specialist.md)** - Expert web researcher using advanced search techniques and synthesis
+- **[code-reviewer](yaml/code-reviewer.yaml)** - Expert code review with deep configuration security focus and production reliability
+- **[security-auditor](yaml/security-auditor.yaml)** - Review code for vulnerabilities and ensure OWASP compliance
+- **[test-automator](yaml/test-automator.yaml)** - Create comprehensive test suites with unit, integration, and e2e tests
+- **[performance-engineer](yaml/performance-engineer.yaml)** - Profile applications, optimize bottlenecks, and implement caching strategies
+- **[debugger](yaml/debugger.yaml)** - Debugging specialist for errors, test failures, and unexpected behavior
+- **[error-detective](yaml/error-detective.yaml)** - Search logs and codebases for error patterns, stack traces, and anomalies
+- **[search-specialist](yaml/search-specialist.yaml)** - Expert web researcher using advanced search techniques and synthesis
 
 ### Data & AI
-- **[data-scientist](data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights
-- **[data-engineer](data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures
-- **[ai-engineer](ai-engineer.md)** - Build LLM applications, RAG systems, and prompt pipelines
-- **[ml-engineer](ml-engineer.md)** - Implement ML pipelines, model serving, and feature engineering
-- **[mlops-engineer](mlops-engineer.md)** - Build ML pipelines, experiment tracking, and model registries
-- **[prompt-engineer](prompt-engineer.md)** - Optimizes prompts for LLMs and AI systems
+- **[data-scientist](yaml/data-scientist.yaml)** - Data analysis expert for SQL queries, BigQuery operations, and data insights
+- **[data-engineer](yaml/data-engineer.yaml)** - Build ETL pipelines, data warehouses, and streaming architectures
+- **[ai-engineer](yaml/ai-engineer.yaml)** - Build LLM applications, RAG systems, and prompt pipelines
+- **[ml-engineer](yaml/ml-engineer.yaml)** - Implement ML pipelines, model serving, and feature engineering
+- **[mlops-engineer](yaml/mlops-engineer.yaml)** - Build ML pipelines, experiment tracking, and model registries
+- **[prompt-engineer](yaml/prompt-engineer.yaml)** - Optimizes prompts for LLMs and AI systems
 
 ### Specialized Domains
-- **[api-documenter](api-documenter.md)** - Create OpenAPI/Swagger specs and write developer documentation
-- **[payment-integration](payment-integration.md)** - Integrate Stripe, PayPal, and payment processors
-- **[quant-analyst](quant-analyst.md)** - Build financial models, backtest trading strategies, and analyze market data
-- **[risk-manager](risk-manager.md)** - Monitor portfolio risk, R-multiples, and position limits
-- **[legacy-modernizer](legacy-modernizer.md)** - Refactor legacy codebases and implement gradual modernization
-- **[context-manager](context-manager.md)** - Manages context across multiple agents and long-running tasks
+- **[api-documenter](yaml/api-documenter.yaml)** - Create OpenAPI/Swagger specs and write developer documentation
+- **[payment-integration](yaml/payment-integration.yaml)** - Integrate Stripe, PayPal, and payment processors
+- **[quant-analyst](yaml/quant-analyst.yaml)** - Build financial models, backtest trading strategies, and analyze market data
+- **[risk-manager](yaml/risk-manager.yaml)** - Monitor portfolio risk, R-multiples, and position limits
+- **[legacy-modernizer](yaml/legacy-modernizer.yaml)** - Refactor legacy codebases and implement gradual modernization
+- **[context-manager](yaml/context-manager.yaml)** - Manages context across multiple agents and long-running tasks
 
 ### Business & Marketing
-- **[business-analyst](business-analyst.md)** - Analyze metrics, create reports, and track KPIs
-- **[content-marketer](content-marketer.md)** - Write blog posts, social media content, and email newsletters
-- **[sales-automator](sales-automator.md)** - Draft cold emails, follow-ups, and proposal templates
-- **[customer-support](customer-support.md)** - Handle support tickets, FAQ responses, and customer emails
-- **[legal-advisor](legal-advisor.md)** - Draft privacy policies, terms of service, disclaimers, and legal notices
+- **[business-analyst](yaml/business-analyst.yaml)** - Analyze metrics, create reports, and track KPIs
+- **[content-marketer](yaml/content-marketer.yaml)** - Write blog posts, social media content, and email newsletters
+- **[sales-automator](yaml/sales-automator.yaml)** - Draft cold emails, follow-ups, and proposal templates
+- **[customer-support](yaml/customer-support.yaml)** - Handle support tickets, FAQ responses, and customer emails
+- **[legal-advisor](yaml/legal-advisor.yaml)** - Draft privacy policies, terms of service, disclaimers, and legal notices
 
 ## Model Assignments
 
@@ -172,7 +172,7 @@ Mention the subagent by name in your request:
 "Have code-reviewer scrutinize these configuration changes"
 "Have security-auditor check for OWASP compliance issues"
 
-# Development tasks  
+# Development tasks
 "Get backend-architect to design a user authentication API"
 "Use frontend-developer to create a responsive dashboard layout"
 
@@ -203,7 +203,7 @@ These subagents work together seamlessly, and for more complex orchestrations, y
 "Implement user authentication feature"
 # Automatically uses: backend-architect → frontend-developer → test-automator → security-auditor
 
-# Performance optimization workflow  
+# Performance optimization workflow
 "Optimize the checkout process performance"
 # Automatically uses: performance-engineer → database-optimizer → frontend-developer
 
@@ -236,7 +236,7 @@ For more sophisticated multi-subagent orchestration, use the companion [Commands
 # Complex feature development (8+ subagents)
 /full-stack-feature Build user dashboard with real-time analytics
 
-# Production incident response (5+ subagents) 
+# Production incident response (5+ subagents)
 /incident-response Database connection pool exhausted
 
 # ML infrastructure setup (6+ subagents)
@@ -249,7 +249,7 @@ For more sophisticated multi-subagent orchestration, use the companion [Commands
 ## Subagent Format
 
 Each subagent follows this structure:
-```markdown
+```yaml
 ---
 name: subagent-name
 description: When this subagent should be invoked
@@ -265,7 +265,7 @@ System prompt defining the subagent's role and capabilities
 As of Claude Code v1.0.64, subagents can specify which Claude model they should use. This allows for cost-effective task delegation based on complexity:
 
 - **Low Complexity (Haiku)**: Simple tasks like basic data analysis, documentation generation, and standard responses
-- **Medium Complexity (Sonnet)**: Development tasks, code review, testing, and standard engineering work  
+- **Medium Complexity (Sonnet)**: Development tasks, code review, testing, and standard engineering work
 - **High Complexity (Opus)**: Critical tasks like security auditing, architecture review, incident response, and AI/ML engineering
 
 Available models (using simplified naming as of Claude Code v1.0.64):
@@ -274,6 +274,8 @@ Available models (using simplified naming as of Claude Code v1.0.64):
 - `opus` - Most capable for complex analysis and critical tasks
 
 If no model is specified, the subagent will use the system's default model.
+
+Note: All subagent files are now in YAML format (.yaml) instead of Markdown (.md)
 
 ## Agent Orchestration Patterns
 
@@ -291,7 +293,7 @@ backend-architect → frontend-developer → test-automator → security-auditor
 ```
 User Request → Agent A + Agent B (simultaneously) → Merge Results
 
-Example: "Optimize application performance" 
+Example: "Optimize application performance"
 performance-engineer + database-optimizer → Combined recommendations
 ```
 
@@ -319,7 +321,7 @@ payment-integration → security-auditor → Validated implementation
 - **ui-ux-designer**: Interface design, wireframes, design systems, user research
 - **cloud-architect**: Infrastructure design, scalability planning
 
-### 🔧 Implementation & Development  
+### 🔧 Implementation & Development
 - **python-pro**: Python-specific development tasks
 - **golang-pro**: Go-specific development tasks
 - **rust-pro**: Rust-specific development, memory safety, systems programming
@@ -358,7 +360,7 @@ payment-integration → security-auditor → Validated implementation
 - **content-marketer**: SEO content, blog posts, social media, email campaigns
 - **sales-automator**: Cold emails, follow-ups, proposals, lead nurturing
 - **customer-support**: Support tickets, FAQs, help documentation, troubleshooting
-- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices 
+- **legal-advisor** - Draft privacy policies, terms of service, disclaimers, and legal notices
 
 ## Best Practices
 
@@ -385,7 +387,7 @@ payment-integration → security-auditor → Validated implementation
 ## Contributing
 
 To add a new subagent:
-1. Create a new `.md` file following the format above
+1. Create a new `.yaml` file following the format above
 2. Use lowercase, hyphen-separated names
 3. Write clear descriptions for when the subagent should be used
 4. Include specific instructions in the system prompt
