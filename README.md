@@ -1,8 +1,14 @@
-# Claude Code Subagents Collection
+# kilocode Subagents Collection
 
-A comprehensive collection of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise.
+## Credits (intended to be in front of anything)
+
+this project shamelessly fork from [Claude Code Subagents Collection](https://github.com/wshobson/agents)
 
 ## Overview
+
+Sorry but this project is still work-in-progress
+
+A comprehensive collection of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise.
 
 This repository contains 50 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
